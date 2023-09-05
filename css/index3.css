@@ -1,0 +1,52 @@
+.contact{
+   padding: 80px 17%;
+   background: black;
+}
+
+.main-contact{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,min-max(250px auto));
+   align-items: center;
+   gap: 2rem;
+   margin-bottom: 3rem;
+}
+
+.contact-content li{
+   margin-bottom: 15px
+}
+
+.contact-content li a{
+   display: block;
+   color: white;
+   font-size: 1.1rem;
+   font-weight: 600;
+   transition: all .40s ease;
+}
+
+.action form{
+   text-align: center
+}
+
+.action form input[type="email"]{
+   width: 460px;
+   max-width: 100%;
+   padding: 12px 15px;
+   background: #515151;
+   color: white;
+   border: none;
+   outline: none;
+   margin: 0px 10px 20px 0px;
+   font-size: 16px;
+   font-weight: 600;
+}
+.action form input[type="submit"]{
+   padding: 10px 35px;
+   background: white;
+   color: black;
+   border: none;
+   outline: none;
+   margin: 0px 10px 20px 0px;
+   font-size: 16px;
+   font-weight: 600;
+   cursor: pointer;
+}
